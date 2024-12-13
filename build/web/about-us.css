@@ -1,0 +1,104 @@
+
+
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+}
+
+
+.gap-40 {
+    gap: 40px;
+}
+
+
+.title {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .4em;
+    line-height: 25px;
+    color: #9e9a94;
+    margin: 0;
+}
+
+.heading {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #3e3930;
+    font-size: 50px;
+    line-height: 1.1em;
+}
+
+
+.icon-why {
+    background-color: #eba7d3;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transform: 0.5s;
+    transition: 0.5s;
+}
+
+.title-why {
+    color: #242424;
+    font-size: 24px;
+    font-family: "Marcellus", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+.icon-why:hover {
+    background-color: #f1039e;
+}
+
+
+
+/* Packages */
+
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    padding-top: 10px;
+}
+
+h1 {
+    color: #eba7d3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 700;
+	color: #e626c9;
+}
+
+.card-text{
+text-align: justify;
+
+}
+
+
+.fa-star:before {
+    content: "\f005";
+    color: #c6248d !important;
+}
+
+.fa-star-half-alt:before {
+    color: #c6248d !important;
+}
+
+
+.active {
+    color: #f1039e !important;
+}
